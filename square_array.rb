@@ -1,8 +1,8 @@
 def square_array(array)
 
   array.each do |element|
-  
-  puts (element * 5) 
+  new_array
+  new_array.push(element * element) 
 
   end
 end
