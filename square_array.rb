@@ -2,6 +2,6 @@ def square_array(array)
 
 array.each do |element|
   
-  element * element 
+  return (element * element) 
 
 end
